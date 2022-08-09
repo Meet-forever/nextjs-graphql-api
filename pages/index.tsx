@@ -50,6 +50,15 @@ const Home: NextPage = () => {
           <button className={styles.small_btn} onClick={() => setApiData("")}>Clear</button>
         </div>
       </div>
+      {/*  */}
+      <div className={styles.main}>
+        <h1 className={styles.title}>What I Learned?</h1>
+        <br/>
+        <br/>
+        <br/>
+        <div className={styles.textblock}>Unlike REST API, GraphQL only serves from a single endpoint. GraphQL offers only three types of operations: Query, Mutation, and Subscription. Query is like a <code className={styles.green}>GET</code> request. The client fetches the data using Query and <code className={styles.yellow}>PUT</code> and <code className={styles.orange}>POST</code> the data using Mutation. And, the real-time data are handle by Subscriptions, which are generally used with WebSockets.</div>
+        <br/>
+      </div>
     </div>
   )
 }

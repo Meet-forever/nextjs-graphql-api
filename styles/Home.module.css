@@ -11,8 +11,42 @@
 }
 
 .btn:hover{
-  background-color: rgb(209, 50, 103);
+  background-color: rgb(212, 65, 114);
 }
+
+.textblock{
+  max-width: 720px;
+  text-align: center;
+  /* font-size:larger; */
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+
+.textblock code{
+  padding: 2px 4px;
+  line-height: 28px;
+  word-spacing: 2px;
+  /* background-color: gainsboro; */
+  border-radius: 2px;
+  color: black;
+}
+
+.green{
+  background-color: lightgreen;
+}
+.orange{
+  background-color: lightsalmon;
+}
+.yellow{
+  background-color: rgb(241, 195, 77);
+}
+
+.underline{
+  text-decoration: underline;
+  text-decoration-color: rgb(241, 82, 180);
+  text-decoration-thickness: 2px;
+}
+
 
 .small_btn{
   background-color: rgb(41, 104, 240);
